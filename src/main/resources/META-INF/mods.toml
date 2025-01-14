@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license = "BSD 2"
+
+[[mods]]
+    modId="waves"
+    version="${file.jarVersion}"
+    logoFile="pack.png"
+    displayName="Waves"
+    displayURL = "https://www.curseforge.com/minecraft/mc-mods/coastal-waves"
+    authors="Verph"
+    description="Adding magnificent waves to the world!"
+
+[[dependencies.waves]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[0,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.waves]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20,1.20.1,1.20.2)"
+    ordering = "NONE"
+    side = "BOTH"

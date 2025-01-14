@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:water",
+    {
+      "id": "tfc:salt_water",
+      "required": false
+    }
+  ]
+}
