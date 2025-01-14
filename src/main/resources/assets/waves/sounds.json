@@ -1,0 +1,18 @@
+{
+  "waves.waves_breaking": {
+    "subtitle": "subtitles.generic.waves.waves_breaking",
+    "sounds": [
+      "waves:waves/wave_0",
+      "waves:waves/wave_1",
+      "waves:waves/wave_2",
+      "waves:waves/wave_3",
+      "waves:waves/wave_4",
+      "waves:waves/wave_5",
+      "waves:waves/wave_6",
+      "waves:waves/wave_7",
+      "waves:waves/wave_8",
+      "waves:waves/wave_9",
+      "waves:waves/wave_10"
+    ]
+  }
+}

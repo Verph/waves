@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#tfc:tide_pool_blocks",
+      "required": false
+    },
+    {
+      "id": "tfc:groundcover/stick",
+      "required": false
+    },
+    {
+      "id": "tfc:groundcover/driftwood",
+      "required": false
+    },
+    {
+      "id": "tfc:groundcover/seaweed",
+      "required": false
+    }
+  ]
+}

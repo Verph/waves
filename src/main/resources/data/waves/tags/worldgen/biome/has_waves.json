@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#tfc:is_ocean",
+      "required": false
+    },
+    {
+      "id": "tfc:shore",
+      "required": false
+    },
+    {
+      "id": "tfc:tidal_flats",
+      "required": false
+    },
+    {
+      "id": "tfc:salt_marsh",
+      "required": false
+    },
+    "#minecraft:is_beach",
+    "minecraft:stony_shore",
+    "#minecraft:is_deep_ocean",
+    "#minecraft:is_ocean"
+  ]
+}

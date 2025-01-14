@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license = "BSD 2"
+
+[[mods]]
+    modId = "${modId}"
+    version = "${modVersion}"
+    logoFile = "pack.png"
+    displayName = "Waves"
+    displayURL = "https://www.curseforge.com/minecraft/mc-mods/coastal-waves"
+    authors = "Verph"
+    description = "Adding magnificent waves to the world!"
+
+[[mixins]]
+    config = "waves.mixins.json"
+
+[[dependencies.waves]]
+    modId = "neoforge"
+    type = "required"
+    versionRange="[21.0.0-beta,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.waves]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21,1.21.4)"
+    ordering = "NONE"
+    side = "BOTH"
